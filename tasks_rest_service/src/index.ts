@@ -39,7 +39,7 @@ app.post("/tarefas", (req, res) => {
   const tasks = readJsonFile<ITask[]>("dados/tasks.json");
   tasks.push(task);
   writeJsonFile("dados/tasks.json", tasks);
-  res.send(task);
+  res.status(201).send(task);
 });
 
 app.listen(PORT, () => {
