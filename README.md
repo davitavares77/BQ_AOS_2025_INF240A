@@ -1,10 +1,20 @@
-# AOS
+# Curso AOS Bento Quirino
 
-Curso AOS Bento Quirino
+### Repositório do github
+
+Instalar o git: https://git-scm.com/downloads
+
+#### Comandos do git
+
+- Para baixar o repositório no seu computador pela primeira vez: `git clone https://github.com/{seu-usuario}/BQ_AOS_2025_INF240B`
+- Para atualizar o repositório no seu computador após clonar: `git pull origin main`
+- Para adicionar as alterações: `git add .`
+- Para enviar as alterações: `git commit -m "descrição das alterações"`
+- Para enviar as alterações para o repositório remoto: `git push -u origin main`
 
 ---
 
-### Tarefa para o dia 19/02/2025
+### Tarefa para o dia 20/02/2025
 
 - [ ] Adicionar a requisição de atualização da tarefa.
 - [ ] Adicionar a requisição de exclusão da tarefa.
